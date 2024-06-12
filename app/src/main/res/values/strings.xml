@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">My Application</string>
+        <string-array name="jurusan_array">
+            <item>Please select your study program</item>
+            <item>Sistem Informasi</item>
+            <item>Dkv</item>
+            <item>Teknik Industri</item>
+            <item>Teknik Informatika</item>
+            <item>Manajemen Bisnis</item>
+            <item>Akuntansi</item>
+            <item>PPBM</item>
+            <item>Sastra Ingris</item>
+            <item>Farmasi</item>
+        </string-array>
 </resources>
