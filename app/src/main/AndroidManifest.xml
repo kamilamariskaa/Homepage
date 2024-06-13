@@ -13,7 +13,16 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".Home_Activity"
+            android:name=".Contact_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Regis_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".News_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".About_Activity"
             android:exported="false" />
         <activity
             android:name=".FormKedua"
