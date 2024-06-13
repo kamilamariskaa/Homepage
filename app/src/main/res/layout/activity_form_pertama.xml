@@ -2,7 +2,6 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -25,7 +24,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Let's Join"
+                    android:gravity="center"
+                    android:text="Let's Join\nSwiss German University"
                     android:textColor="@color/white"
                     android:textSize="24sp"
                     android:textStyle="bold"/>
@@ -36,6 +36,27 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="16dp">
+
+            <ImageView
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:src="@drawable/logo_sgu"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swiss German University"
+                android:layout_gravity="center"
+                android:textColor="#009ef7"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray"
+                android:layout_marginBottom="15dp"/>
 
 
 
@@ -120,6 +141,7 @@
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:layout_marginBottom="8dp"
+
                 />
 
             <EditText
@@ -129,7 +151,9 @@
                 android:hint="08xx"
                 android:background="@drawable/edit_text_background"
                 android:padding="12dp"
-                android:layout_marginBottom="16dp"/>
+                android:layout_marginBottom="16dp"
+                android:inputType="number"
+                />
 
 <!--            Buat tanggal lahir-->
             <TextView
@@ -140,23 +164,50 @@
                 android:textSize="16sp"
                 android:layout_marginBottom="8dp"
                 />
-
-            <EditText
-                android:id="@+id/tanggal_lahir"
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="Enter Your Birthday"
-                android:background="@drawable/edit_text_background"
-                android:padding="12dp"
-                android:layout_marginBottom="16dp"
-                android:inputType="date"
-                />
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+">
+                <EditText
+                    android:id="@+id/tanggal_lahir"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Date"
+                    android:background="@drawable/edit_text_background"
+                    android:padding="12dp"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:id="@+id/bulan_lahir"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Month"
+                    android:background="@drawable/edit_text_background"
+                    android:padding="12dp"
+                    android:layout_marginStart="10dp"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:id="@+id/tahun_lahir"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Year"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/edit_text_background"
+                    android:padding="12dp"
+                    android:inputType="number"
+                    />
+
+            </LinearLayout>
+
 
 <!--            Buat Email-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mobile"
+                android:text="Email"
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:layout_marginBottom="8dp"
@@ -325,7 +376,8 @@
                 android:hint="08xx"
                 android:background="@drawable/edit_text_background"
                 android:padding="12dp"
-                android:layout_marginBottom="40dp"/>
+                android:layout_marginBottom="40dp"
+                android:inputType="number"/>
 
 
             <!--            Buat Jurusan-->
