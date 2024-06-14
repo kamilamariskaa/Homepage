@@ -8,13 +8,15 @@
     android:layout_height="match_parent"
     tools:context=".About_Activity">
 
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <!--Header-->
@@ -22,68 +24,68 @@
                 android:id="@+id/textHome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="25dp"
+                android:clickable="true"
+                android:onClick="Home"
                 android:text="Home"
                 android:textSize="17dp"
                 android:textStyle="bold"
-                android:onClick="Home"
-                android:clickable="true"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginTop="25dp"
-                android:layout_marginStart="32dp"
                 tools:ignore="OnClick" />
 
             <TextView
                 android:id="@+id/textAbout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:clickable="true"
+                android:onClick="About"
                 android:text="About"
                 android:textSize="17dp"
                 android:textStyle="bold"
-                android:onClick="About"
-                android:clickable="true"
                 app:layout_constraintStart_toEndOf="@id/textHome"
-                app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginTop="25dp"
-                android:layout_marginStart="15dp"/>
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/textNews"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
                 android:text="News"
                 android:textSize="17dp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@id/textAbout"
-                app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginTop="25dp"
-                android:layout_marginStart="15dp" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/textRegis"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:clickable="true"
                 android:text="Regis"
                 android:textSize="17dp"
                 android:textStyle="bold"
-                android:clickable="true"
                 app:layout_constraintStart_toEndOf="@id/textNews"
-                app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginTop="25dp"
-                android:layout_marginStart="15dp"/>
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/textContact"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:clickable="true"
                 android:text="Contact"
                 android:textSize="17dp"
                 android:textStyle="bold"
-                android:clickable="true"
                 app:layout_constraintStart_toEndOf="@id/textRegis"
-                app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginTop="25dp"
-                android:layout_marginStart="15dp"/>
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/imageViewSearch"
@@ -102,12 +104,131 @@
                 android:id="@+id/imageViewLogo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/img"
+                android:layout_marginTop="70dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginTop="70dp" />
+                app:srcCompat="@drawable/img" />
 
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#975FC0FB"
+                android:gravity="center"
+                app:layout_constraintTop_toBottomOf="@id/imageViewLogo"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Our Mission dan Mission"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="168dp"
+                android:layout_height="150dp"
+                android:layout_marginEnd="124dp"
+                app:srcCompat="@drawable/img_29"
+                tools:layout_editor_absoluteY="173dp" />
+
+
+
+            <ImageView
+                android:layout_width="168dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/img_27"
+                tools:layout_editor_absoluteX="243dp"
+                tools:layout_editor_absoluteY="309dp" />
+
+            <ImageView
+                android:layout_width="172dp"
+                android:layout_height="136dp"
+                app:srcCompat="@drawable/img_28"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="482dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vision"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="180dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="227dp"
+                android:layout_height="76dp"
+                android:text="To be a globally recognized university with integrity, superior learning culture, diversity, and high social responsibility, which inspires character transformation and develops young leaders who are responsible and fully equipped to face life’s challenges."
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="208dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mission"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="180dp"
+                tools:layout_editor_absoluteY="323dp" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="215dp"
+                android:layout_height="150dp"
+                android:text="Placing discipline and integrity as core values in every activity to develop character transformation of the civitas academica.
+Organizing an internationally oriented education with a high-quality learning culture that focuses on professionalism, innovation, and excellence.
+Carrying out globally recognized research emphasizing the advancement of science and its application.
+Carrying out community service and playing an active role in society as a form of social care and dedication to Indonesia."
+                android:textSize="8dp"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="342dp" />
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Values"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="187dp"
+                tools:layout_editor_absoluteY="463dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="233dp"
+                android:layout_height="155dp"
+                android:text="1. Resilient
+Expressing toughness and persistence in withstanding challenges and crisis, as well as the spirit to
+recover
+
+2. Adaptive
+Self and social maturity to adapt quickly towards internal and external changes that have positive impact
+
+3. Proactive
+Able to identify opportunities and challenges, as well as continuously having initiative by steadfastly acting towards reaching meaningful goals
+
+4. Integrity
+Honoring the truth, honesty, and ethical behavior as demonstrated by the congruence in words, action, and noble moral principles
+
+5. Discipline
+Commitment in exercising self-control and consistently safeguard and uphold the guidance and prevailing regulations
+
+6. Social Care
+Care towards the condition of the community and willingness to contribute for the betterment of community and environment"
+                android:textSize="8dp"
+                tools:layout_editor_absoluteX="180dp"
+                tools:layout_editor_absoluteY="492dp" />
         </androidx.constraintlayout.widget.ConstraintLayout>
+
     </ScrollView>
 </RelativeLayout>
