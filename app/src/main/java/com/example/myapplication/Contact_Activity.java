@@ -69,4 +69,13 @@ public class Contact_Activity extends AppCompatActivity {
             return insets;
         });
     }
-}
+        public void FormPertama(View view) {
+            Intent intent = new Intent(this, FormPertama.class);
+            startActivity(intent);
+        }
+
+        public void FormKedua(View view) {
+            Intent intent = new Intent(this, FormKedua.class);
+            startActivity(intent);
+        }
+    }

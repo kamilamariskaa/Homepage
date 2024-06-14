@@ -86,16 +86,15 @@
                 app:layout_constraintStart_toEndOf="@id/textRegis"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageView
+            <SearchView
                 android:id="@+id/imageViewSearch"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginTop="20dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
                 android:clickable="true"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textContact"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/search" />
+                app:layout_constraintTop_toTopOf="parent"/>
 
             <!--End Header-->
 

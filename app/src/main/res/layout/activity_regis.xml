@@ -83,13 +83,15 @@
                         android:clickable="true"
                         android:layout_marginEnd="15dp" />
 
-                    <ImageView
+                    <SearchView
                         android:id="@+id/imageViewSearch"
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_marginStart="10dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="-10dp"
                         android:clickable="true"
-                        app:srcCompat="@drawable/search" />
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/textContact"
+                        app:layout_constraintTop_toTopOf="parent"/>
                 </LinearLayout>
 
                 <ImageView
