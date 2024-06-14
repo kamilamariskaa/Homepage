@@ -167,7 +167,7 @@
                 app:layout_constraintTop_toBottomOf="@id/imageAbout1"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginEnd="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 tools:ignore="MissingConstraints" />
             <TextView
                 android:id="@+id/textAbout3"
@@ -199,7 +199,7 @@ Carrying out community service and playing an active role in society as a form o
                 android:layout_width="140dp"
                 android:layout_height="190dp"
                 app:srcCompat="@drawable/img_29"
-                app:layout_constraintTop_toBottomOf="@id/imageAbout2"
+                app:layout_constraintTop_toBottomOf="@id/textAbout4"
                 app:layout_constraintStart_toStartOf="parent"
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="20dp"
