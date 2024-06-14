@@ -13,7 +13,11 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class Regis_Activity extends AppCompatActivity {
 
-    TextView textNews, textAbout, textRegis, textContact, textHome;
+    TextView textNews;
+    TextView textAbout;
+    TextView textRegis;
+    TextView textContact;
+    TextView textHome;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,5 +72,15 @@ public class Regis_Activity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void FormPertama(View view) {
+        Intent intent = new Intent(this, FormPertama.class);
+        startActivity(intent);
+    }
+
+    public void FormKedua(View view) {
+        Intent intent = new Intent(this, FormKedua.class);
+        startActivity(intent);
     }
 }
