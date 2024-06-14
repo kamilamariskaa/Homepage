@@ -54,7 +54,6 @@
                 android:text="News"
                 android:textSize="17dp"
                 android:textStyle="bold"
-                android:clickable="true"
                 app:layout_constraintStart_toEndOf="@id/textAbout"
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginTop="25dp"
