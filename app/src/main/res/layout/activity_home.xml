@@ -452,15 +452,13 @@
                     android:text="Swiss German University "
                     android:textColor="@color/black"
                     android:textSize="20dp"
-                    android:textStyle="bold"
-                    />
+                    android:textStyle="bold" />
 
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/img"
-                    android:layout_marginStart="25dp"
-                    />
+                    android:layout_marginStart="30dp" />
 
             </com.google.android.material.bottomappbar.BottomAppBar>
 
