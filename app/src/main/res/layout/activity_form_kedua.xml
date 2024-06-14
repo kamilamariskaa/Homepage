@@ -289,15 +289,15 @@
 
                 <!--            buat button-->
                 <Button
-                    android:id="@+id/continue_button"
+                    android:id="@+id/continue_button_kedua"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Submit"
-                    android:backgroundTint="@android:color/holo_blue_light"
-                    android:textColor="@android:color/white"
-                    android:padding="16dp"
                     android:layout_marginTop="16dp"
-                    android:layout_marginBottom="16dp" />
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="@android:color/holo_blue_light"
+                    android:padding="16dp"
+                    android:text="Submit"
+                    android:textColor="@android:color/white" />
 
             </LinearLayout>
         </LinearLayout>
