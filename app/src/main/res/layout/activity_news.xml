@@ -128,7 +128,7 @@
             </LinearLayout>
 
             <ImageView
-                android:id="@+id/about1"
+                android:id="@+id/news1"
                 android:layout_width="180dp"
                 android:layout_height="120dp"
                 android:layout_marginStart="25dp"
@@ -139,13 +139,13 @@
                 tools:ignore="MissingConstraints" />
 
             <TextView
-                android:id="@+id/textAbout1"
+                android:id="@+id/textNews1"
                 android:layout_width="160dp"
                 android:layout_height="match_parent"
                 android:text=
                     "Pionering Cybersecurity Education :Swiss German University’s ARCS Department Hosts a Strategic SOC Workshop"
-                app:layout_constraintStart_toEndOf="@id/about1"
-                app:layout_constraintTop_toTopOf="@id/about1"
+                app:layout_constraintStart_toEndOf="@id/news1"
+                app:layout_constraintTop_toTopOf="@id/news1"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:textColor="@color/black"
@@ -157,32 +157,32 @@
                 android:layout_height="match_parent"
                 android:text=
                     "Tuesday, May 21st, 2024 — The Academic Research and Community Service (ARCS) department of Swiss German University (SGU) collaborated with the MIT Program (supported by the National Cyber and Crypto Agency (BSSN)"
-                app:layout_constraintStart_toEndOf="@id/about1"
-                app:layout_constraintTop_toBottomOf="@id/textAbout1"
+                app:layout_constraintStart_toEndOf="@id/news1"
+                app:layout_constraintTop_toBottomOf="@id/textNews1"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="5dp"
                 android:textSize="8dp"
                 tools:ignore="MissingConstraints" />
 
             <ImageView
-                android:id="@+id/about2"
+                android:id="@+id/news2"
                 android:layout_width="180dp"
                 android:layout_height="120dp"
                 android:layout_marginStart="25dp"
                 android:layout_marginTop="20dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/about1"
+                app:layout_constraintTop_toBottomOf="@id/news1"
                 app:srcCompat="@drawable/img_31"
                 tools:ignore="MissingConstraints" />
 
             <TextView
-                android:id="@+id/textAbout2"
+                android:id="@+id/textNews2"
                 android:layout_width="160dp"
                 android:layout_height="match_parent"
                 android:text=
                     "SGU Welcomes Prof. Danielle Swanepoel from SolBridge International School of Business for Insightful Educational Events at Swiss German University"
-                app:layout_constraintStart_toEndOf="@id/about2"
-                app:layout_constraintTop_toTopOf="@id/about2"
+                app:layout_constraintStart_toEndOf="@id/news2"
+                app:layout_constraintTop_toTopOf="@id/news2"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:textColor="@color/black"
@@ -194,32 +194,32 @@
                 android:layout_height="match_parent"
                 android:text=
                     "Tangerang, Saturday, May 4th, 2024 – The first event in Danielle Swanepoel’s Brass Series commenced, offering invaluable insights to SGU master program attendees."
-                app:layout_constraintStart_toEndOf="@id/about2"
-                app:layout_constraintTop_toBottomOf="@id/textAbout2"
+                app:layout_constraintStart_toEndOf="@id/news2"
+                app:layout_constraintTop_toBottomOf="@id/textNews2"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="5dp"
                 android:textSize="8dp"
                 tools:ignore="MissingConstraints" />
 
             <ImageView
-                android:id="@+id/about3"
+                android:id="@+id/news3"
                 android:layout_width="180dp"
                 android:layout_height="120dp"
                 android:layout_marginStart="25dp"
                 android:layout_marginTop="20dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/about2"
+                app:layout_constraintTop_toBottomOf="@id/news2"
                 app:srcCompat="@drawable/img_32"
                 tools:ignore="MissingConstraints" />
 
             <TextView
-                android:id="@+id/textAbout3"
+                android:id="@+id/textNews3"
                 android:layout_width="160dp"
                 android:layout_height="match_parent"
                 android:text=
                     "SGU and Alumni Berlin Indonesia Sign MoU to Enhance Educational Cooperation"
-                app:layout_constraintStart_toEndOf="@id/about3"
-                app:layout_constraintTop_toTopOf="@id/about3"
+                app:layout_constraintStart_toEndOf="@id/news3"
+                app:layout_constraintTop_toTopOf="@id/news3"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:textColor="@color/black"
@@ -231,32 +231,32 @@
                 android:layout_height="match_parent"
                 android:text=
                     "Jakarta, May 12th, 2024 – The Swiss German University (SGU) and Alumni Berlin Indonesia signed a Memorandum of Understanding (MoU) at Jakarta to strengthen cooperation in the field of education."
-                app:layout_constraintStart_toEndOf="@id/about3"
-                app:layout_constraintTop_toBottomOf="@id/textAbout3"
+                app:layout_constraintStart_toEndOf="@id/news3"
+                app:layout_constraintTop_toBottomOf="@id/textNews3"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="5dp"
                 android:textSize="8dp"
                 tools:ignore="MissingConstraints" />
 
             <ImageView
-                android:id="@+id/about4"
+                android:id="@+id/news4"
                 android:layout_width="180dp"
                 android:layout_height="120dp"
                 android:layout_marginStart="25dp"
                 android:layout_marginTop="20dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/about3"
+                app:layout_constraintTop_toBottomOf="@id/news3"
                 app:srcCompat="@drawable/img_33"
                 tools:ignore="MissingConstraints" />
 
             <TextView
-                android:id="@+id/textAbout4"
+                android:id="@+id/textNews4"
                 android:layout_width="160dp"
                 android:layout_height="match_parent"
                 android:text=
                     "Bridging Knowledge and Practice: Ngabuburit with the Experts 2024 the collaboration between SGU and H3"
-                app:layout_constraintStart_toEndOf="@id/about4"
-                app:layout_constraintTop_toTopOf="@id/about4"
+                app:layout_constraintStart_toEndOf="@id/news4"
+                app:layout_constraintTop_toTopOf="@id/news4"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:textColor="@color/black"
@@ -268,32 +268,32 @@
                 android:layout_height="match_parent"
                 android:text=
                     "Wednesday, April 3, 2024, saw the convergence of academia and industry expertise at the Ngabuburit with the Experts 2024 event, jointly organized by the Swiss German University (SGU) and the Indonesian Hotel Public Relations Association (H3)"
-                app:layout_constraintStart_toEndOf="@id/about4"
-                app:layout_constraintTop_toBottomOf="@id/textAbout4"
+                app:layout_constraintStart_toEndOf="@id/news4"
+                app:layout_constraintTop_toBottomOf="@id/textNews4"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="3dp"
                 android:textSize="8dp"
                 tools:ignore="MissingConstraints" />
 
             <ImageView
-                android:id="@+id/about5"
+                android:id="@+id/news5"
                 android:layout_width="180dp"
                 android:layout_height="120dp"
                 android:layout_marginStart="25dp"
                 android:layout_marginTop="20dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/about4"
+                app:layout_constraintTop_toBottomOf="@id/news4"
                 app:srcCompat="@drawable/img_34"
                 tools:ignore="MissingConstraints" />
 
             <TextView
-                android:id="@+id/textAbout5"
+                android:id="@+id/textNews5"
                 android:layout_width="160dp"
                 android:layout_height="match_parent"
                 android:text=
                     "Bridging Knowledge and Practice: Ngabuburit with the Experts 2024 the collaboration between SGU and H3"
-                app:layout_constraintStart_toEndOf="@id/about5"
-                app:layout_constraintTop_toTopOf="@id/about5"
+                app:layout_constraintStart_toEndOf="@id/news5"
+                app:layout_constraintTop_toTopOf="@id/news5"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:textColor="@color/black"
@@ -305,38 +305,43 @@
                 android:layout_height="match_parent"
                 android:text=
                     "Wednesday, April 3, 2024, saw the convergence of academia and industry expertise at the Ngabuburit with the Experts 2024 event, jointly organized by the Swiss German University (SGU) and the Indonesian Hotel Public Relations Association (H3)"
-                app:layout_constraintStart_toEndOf="@id/about5"
-                app:layout_constraintTop_toBottomOf="@id/textAbout5"
+                app:layout_constraintStart_toEndOf="@id/news5"
+                app:layout_constraintTop_toBottomOf="@id/textNews5"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="3dp"
                 android:textSize="8dp"
                 tools:ignore="MissingConstraints" />
 
-            <com.google.android.material.bottomappbar.BottomAppBar
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="179dp"
+                android:layout_height="match_parent"
                 android:layout_marginTop="15dp"
-                app:layout_constraintTop_toBottomOf="@id/about5"
+                android:background="@color/black"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@id/news5"
                 app:layout_constraintBottom_toBottomOf="parent"
-                tools:ignore="BottomAppBar"
-                android:background="@color/black">
+                app:layout_constraintStart_toEndOf="parent"
+                android:padding="20dp">
 
                 <TextView
-                    android:id="@+id/textfooter"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/alamatText"
+                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:text="Swiss German University "
-                    android:textColor="@color/black"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
+                    android:textSize="8sp"
+                    android:text="SWISS GERMAN UNIVERSITY
+        Alam Sutera Campus: The Prominence Tower Alam Sutera, Jl. Jalur Sutera Barat.No. 15, RT.003/RW.006, Panunggangan Tim., Kec. Pinang, Kota Tangerang, Banten 15143
+        Phone: +6221 2977 9596/9597 Fax +6221 2977 9598"
+                    android:textColor="@color/white"/>
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    app:srcCompat="@drawable/img"
-                    android:layout_marginStart="30dp" />
+                    android:id="@+id/logoSgu"
+                    android:layout_width="109dp"
+                    android:layout_height="51dp"
+                    android:layout_marginStart="250dp"
+                    app:srcCompat="@drawable/logo_sgu_putih" />
+            </FrameLayout>
 
-            </com.google.android.material.bottomappbar.BottomAppBar>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
