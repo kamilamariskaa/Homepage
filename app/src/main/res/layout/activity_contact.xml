@@ -154,6 +154,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="124dp"
                 app:srcCompat="@drawable/img_36"
+                android:onClick="FormKedua"
                 app:layout_constraintTop_toBottomOf="@id/imageRegist1"
                 android:layout_marginTop="10dp"
                 tools:ignore="MissingConstraints" />
