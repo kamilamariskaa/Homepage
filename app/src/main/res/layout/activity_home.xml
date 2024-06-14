@@ -436,31 +436,35 @@
                 </LinearLayout>
             </HorizontalScrollView>
 
-            <com.google.android.material.bottomappbar.BottomAppBar
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="179dp"
-                android:layout_marginTop="10dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:background="@color/black"
+                android:gravity="center"
+                android:orientation="vertical"
                 app:layout_constraintTop_toBottomOf="@id/fasilitas"
                 app:layout_constraintBottom_toBottomOf="parent"
-                tools:ignore="BottomAppBar"
-                android:background="@color/black">
+                app:layout_constraintStart_toEndOf="parent"
+                android:padding="20dp">
 
                 <TextView
-                    android:id="@+id/textfooter"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/alamatText"
+                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:text="Swiss German University "
-                    android:textColor="@color/black"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
+                    android:textSize="8sp"
+                    android:text="SWISS GERMAN UNIVERSITY
+        Alam Sutera Campus: The Prominence Tower Alam Sutera, Jl. Jalur Sutera Barat.No. 15, RT.003/RW.006, Panunggangan Tim., Kec. Pinang, Kota Tangerang, Banten 15143
+        Phone: +6221 2977 9596/9597 Fax +6221 2977 9598"
+                    android:textColor="@color/white"/>
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    app:srcCompat="@drawable/img"
-                    android:layout_marginStart="30dp" />
-
-            </com.google.android.material.bottomappbar.BottomAppBar>
+                    android:id="@+id/logoSgu"
+                    android:layout_width="109dp"
+                    android:layout_height="51dp"
+                    android:layout_marginStart="250dp"
+                    app:srcCompat="@drawable/logo_sgu_putih" />
+            </FrameLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
